@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "districts",
+  "info": {
+    "singularName": "district",
+    "pluralName": "districts",
+    "displayName": "District",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "muncipalities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::muncipality.muncipality",
+      "mappedBy": "district"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_entities",
+  "info": {
+    "singularName": "application-entity",
+    "pluralName": "application-entities",
+    "displayName": "ApplicationEntity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentName": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "Nationality": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "MobileNumber": {
+      "type": "biginteger"
+    },
+    "TelephoneNumber": {
+      "type": "biginteger"
+    },
+    "SLCBoard": {
+      "type": "string"
+    },
+    "SLCYear": {
+      "type": "string"
+    },
+    "SLCGPAPercentage": {
+      "type": "string"
+    },
+    "SLCDivision": {
+      "type": "enumeration",
+      "enum": [
+        "Distinction",
+        "First Division",
+        "Second Division",
+        "Third DIvision"
+      ],
+      "default": "Distinction"
+    },
+    "IntermediateUniversity": {
+      "type": "string"
+    },
+    "PassedYear": {
+      "type": "string"
+    },
+    "IntermediateGPAPercentage": {
+      "type": "string"
+    },
+    "IntermediateDIvision": {
+      "type": "enumeration",
+      "enum": [
+        "Distinction",
+        "First Division",
+        "Second Division",
+        "Third Division"
+      ],
+      "default": "Distinction"
+    },
+    "TotalMarks": {
+      "type": "float"
+    },
+    "SymbolNo": {
+      "type": "string"
+    },
+    "Program": {
+      "type": "enumeration",
+      "enum": [
+        "B.Sc. (Agriculture) 2077/078"
+      ],
+      "default": "B.Sc. (Agriculture) 2077/078"
+    }
+  }
+}

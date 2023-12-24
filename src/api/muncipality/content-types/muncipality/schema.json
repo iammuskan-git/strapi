@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "muncipalities",
+  "info": {
+    "singularName": "muncipality",
+    "pluralName": "muncipalities",
+    "displayName": "Muncipality",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "district": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::district.district",
+      "inversedBy": "muncipalities"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
