@@ -2,14 +2,9 @@
   "collectionName": "components_form_form_tests",
   "info": {
     "displayName": "FormTest",
-    "icon": "alien"
+    "icon": "alien",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "district": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::district.district"
-    }
-  }
+  "attributes": {}
 }

@@ -5,14 +5,9 @@ export interface FormFormTest extends Schema.Component {
   info: {
     displayName: 'FormTest';
     icon: 'alien';
+    description: '';
   };
-  attributes: {
-    district: Attribute.Relation<
-      'form.form-test',
-      'oneToOne',
-      'api::district.district'
-    >;
-  };
+  attributes: {};
 }
 
 declare module '@strapi/types' {
